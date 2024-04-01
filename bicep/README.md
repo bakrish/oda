@@ -1,6 +1,6 @@
 # Oracle Database at Azure
 
-This repo creates the necessary Azure infrastructure for deploying Oracle appliances. It creates a virtual network, subnets for delegating to Oracle database service, route tables(if required), and vnet peerings (if required). Please refer the parameter file  in tests/e2etests for setting up variuous parameters
+This repo creates the necessary Azure infrastructure for deploying Oracle appliances. It creates a virtual network, subnets for delegating to Oracle database service, route tables(if required), and vnet peerings (if required). Please refer the parameter file  in tests/e2etests for setting up various parameters
 
 
 ## Installation
