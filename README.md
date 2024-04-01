@@ -50,28 +50,31 @@ Usage:
 
 ### Parameter: `resourceGroupName`
 
-Required : Yes
-Description: The module creates the resource group, if it does not exist in the current subscription.
-Type : string
+- Required : Yes
+- Description: The module creates the resource group, if it does not exist in the current subscription.
+- Type : string
 
 ### Parameter: `location`
 
-Required : Yes
-Description: The Azure region to which the resource group and all resoruces are to be deployed
-Type: string
+- Required : Yes
+- Description: The Azure region to which the resource group and all resoruces are to be deployed
+- Type: string
 
 ### Parameter: `virtualNetworks`
 
-Required: Yes
-Description: An object array that contains the virtual network properties, including Address prefixes, subnets and their respective properties
+- Required: Yes
+- Description: An object array that contains the virtual network properties, including Address prefixes, subnets and their respective properties
+- Type: Object array
 
 ### Parameter: `routeTables`
 
-Required: No
-Description: An object array that contains description of a route table and properties - including an array of routes.
+- Required: No
+- Description: An object array that contains description of a route table and properties - including an array of routes.
+- Type: Object array
 
 ### Parameter: `tags`
 
-Required: No
-Description: A list of tags that need to be associated with the created resources.
+- Required: No
+- Description: A list of tags that need to be associated with the created resources.
+- Type: Object array
 
